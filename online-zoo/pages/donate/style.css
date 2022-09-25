@@ -543,7 +543,7 @@ textarea {
     text-align: center;
     color: #FE9013;
     padding-top: 41px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   .pick_and_feed_text_f{
     font-family: 'Roboto';
@@ -552,7 +552,7 @@ textarea {
     font-size: 24px;
     line-height: 120%;
     color: #333B41;
-    margin-left: 96px;
+    margin-left: 92px;
     padding-bottom: 60px;
   }
   .wedget{
@@ -676,7 +676,7 @@ textarea {
     margin-left: 20px;
     margin-right: 10px;
   }
-  ul#menu li#active{
+  ul#menu1 li#active1{
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -695,6 +695,11 @@ textarea {
     color: #929699;
     margin-left: 446px;
   }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
   .form_radio{
     margin-top: 25px;
     margin-left: 474px;
@@ -705,6 +710,18 @@ textarea {
   }
   .amount_input_radio:first-child{
     margin-left: 0px;
+  }
+  input.amount_input_radio{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #FE9013;
+  }
+  input:checked {
+    border: 6px solid #FE9013;
   }
   .amount_button{
     width: 298px;
@@ -723,13 +740,13 @@ textarea {
     text-transform: uppercase;
     color: #FFFFFF;
   }
-  .feed_button:hover{
+  .amount_button:hover{
     background: #E47209;
   }
-  .feed_button:active{
+  .amount_button:active{
     background: #4B9200;
   }
-  .feed_button:disabled{
+  .amount_button:disabled{
     background: #767474;
   }
   .amount_text{
@@ -888,7 +905,7 @@ textarea {
     color: #4B9200;
   }
   .footer_div_link{
-    margin-top: 216px;
+    margin-top: 226px;
     margin-left: 162px;
   }
   .footer_link_desing{
@@ -899,6 +916,10 @@ textarea {
     line-height: 130%;
     color: #FFFFFF;
     text-decoration: none;
+  }
+  .footer_link_desing:active{
+    color: #4B9200;
+    text-decoration: underline;
   }
 
   /* Footer styles end */
