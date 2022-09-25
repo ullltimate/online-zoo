@@ -1159,6 +1159,11 @@ textarea {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  ul#menu1 a#active1{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .subscribe{
     font-family: 'Roboto';
     font-style: normal;
@@ -1200,7 +1205,7 @@ textarea {
     color: #4B9200;
   }
   .footer_div_link{
-    margin-top: 216px;
+    margin-top: 226px;
     margin-left: 162px;
   }
   .footer_link_desing{
@@ -1211,6 +1216,10 @@ textarea {
     line-height: 130%;
     color: #FFFFFF;
     text-decoration: none;
+  }
+  .footer_link_desing:active{
+    color: #4B9200;
+    text-decoration: underline
   }
 
   /* Footer styles end */
