@@ -119,13 +119,14 @@
                         <li class="amount_item">$50</li>
                         <li class="amount_item">$25</li>
                     </ul>
-                    <form action="#!">
-                        <input type="number" value="10000" class="amount_input">
+                    <form action="#!" class="form_amount">
+                        <input type="number" placeholder="Another amount" class="amount_input">
+                        <img src="../../assets/icons/dollar.svg" alt="" class="amount_input_img">
                     </form>
                     <form action="#!" class="form_radio">
-                        <input type="radio" class="amount_input_radio">
+                        <input type="radio" name="amount" class="amount_input_radio" >
                         <label class="label_radio">Monthly</label>
-                        <input type="radio" class="amount_input_radio" checked>
+                        <input type="radio" name="amount" class="amount_input_radio" checked>
                         <label class="label_radio">Once</label>
                     </form>
                     <button class="amount_button">

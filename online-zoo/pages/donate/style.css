@@ -598,6 +598,7 @@ textarea {
   }
   .amount_wrap{
     position: relative;
+    cursor: pointer;
   }
   .amount_div{
     width: 976px;
@@ -681,9 +682,13 @@ textarea {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .form_amount{
+    position: relative;
+  }
   .amount_input{
     width: 268px;
     height: 54px;
+    padding-left: 9px;
     background: transparent;
     border: 1px solid #929699;
     border-radius: 2px;
@@ -694,6 +699,11 @@ textarea {
     line-height: 140%;
     color: #929699;
     margin-left: 446px;
+  }
+  .amount_input_img{
+    position: absolute;
+    top:17px;
+    left: 694px;
   }
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
