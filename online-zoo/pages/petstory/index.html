@@ -72,7 +72,9 @@
         <section class="backstage">
             <img src="../../assets/images/flower_foto1.png" alt="" class="backstage_flower1">
             <img src="../../assets/images/strelitzia1.png" alt="" class="backstage_flower2">
+            <img src="../../assets/images/strelitzia1-min.png" alt="" class="backstage_flower2-min">
             <img src="../../assets/images/palm_foto.png" alt="" class="backstage_flower3">
+            <img src="../../assets/images/palm_foto-min.png" alt="" class="backstage_flower3-min">
             <button class="button_arrow_left">
                 <img src="../../assets/icons/arr_left.svg" alt="" class="arr_left">
             </button>
@@ -82,6 +84,7 @@
             <div class="wrapper">
                 <div class="the_backstage">
                     <img src="../../assets/images/bamboo-cap.png" alt="bamboo-cap" class="the_backstage_img">
+                    <img src="../../assets/images/bamboo-cap-min.png" alt="bamboo-cap" class="the_backstage_img_min">
                     <div class="the_backstage_div">
                         <h2 class="the_backstage_title">
                             The Backstage of the Wilderness World.
@@ -359,7 +362,7 @@
     <footer class="footer">
         <div class="wrapper">
             <div class="footer_wrapper">
-                <div class="footer_div">
+                <div class="footer_line">
                     <div class="header_logo">
                         <a href="" class="header_logo_link">
                             <h2 class="headear_logo_title">
@@ -368,75 +371,79 @@
                             <img src="../../assets/icons/bamboo.svg" alt="bamboo" class="header_logo_svg">
                         </a>
                     </div>
-                    <form action="../donate/index.html">
-                        <button class="footer_btn_donate">
-                            donate for volunteers
-                        </button>
-                    </form>
-                    <a href="https://www.facebook.com/" class="footer_link">
-                        <div class="footer_link_cir">
-                            <img src="../../assets/icons/Fb.svg" alt="Facebook" class="footer_link_icon">
-                        </div>
-                        <p class="footer_link_text">
-                            Facebook
-                        </p>
-                    </a>
-                    <a href="https://twitter.com/" class="footer_link">
-                        <div class="footer_link_cir">
-                            <img src="../../assets/icons/Tw.svg" alt="Twitter" class="footer_link_icon">
-                        </div>
-                        <p class="footer_link_text">
-                            Twitter
-                        </p>
-                    </a>
-                    <a href="https://www.instagram.com/" class="footer_link">
-                        <div class="footer_link_cir">
-                            <img src="../../assets/icons/inst.svg" alt="Instagram" class="footer_link_icon">
-                        </div>
-                        <p class="footer_link_text">
-                            Instagram
-                        </p>
-                    </a>
-                    <a href="https://www.youtube.com/" class="footer_link">
-                        <div class="footer_link_cir">
-                            <img src="../../assets/icons/youtube.svg" alt="YouTube" class="footer_link_icon">
-                        </div>
-                        <p class="footer_link_text">
-                            YouTube
-                        </p>
-                    </a>
+                    <div class="footer_div_input">
+                        <h3 class="subscribe">
+                            Subscribe to our news
+                        </h3>
+                        <input type="email" placeholder="Enter your email" class="footer_input"><input type="button" value="Submit" class="footer_input_btn">
+                    </div>
                 </div>
-                <div class="footer_div">
-                    <nav class="footer_nav">
-                        <ul id="menu1" class="footer_list">
-                            <li class="footer_item">
-                                <a id="active1" href="" class="footer_item_link">
-                                    About
-                                </a>
-                            </li>
-                            <li class="footer_item">
-                                <a href="" class="footer_item_link">
-                                    Map
-                                </a>
-                            </li>
-                            <li class="footer_item">
-                                <a href="" class="footer_item_link">
-                                    Zoos
-                                </a>
-                            </li>
-                            <li class="footer_item">
-                                <a href="" class="footer_item_link">
-                                    Contact us
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer_div">
-                    <h3 class="subscribe">
-                        Subscribe to our news
-                    </h3>
-                    <input type="email" placeholder="Enter your email" class="footer_input"><input type="button" value="Submit" class="footer_input_btn">
+                <form action="../donate/index.html">
+                    <button class="footer_btn_donate">
+                        donate for volunteers
+                    </button>
+                </form>
+                <div class="footer_wrapper_lastline">
+                    <div class="footer_link_wrapper">
+                        <a href="https://www.facebook.com/" class="footer_link">
+                            <div class="footer_link_cir">
+                                <img src="../../assets/icons/Fb.svg" alt="Facebook" class="footer_link_icon">
+                            </div>
+                            <p class="footer_link_text">
+                                Facebook
+                            </p>
+                        </a>
+                        <a href="https://twitter.com/" class="footer_link">
+                            <div class="footer_link_cir">
+                                <img src="../../assets/icons/Tw.svg" alt="Twitter" class="footer_link_icon">
+                            </div>
+                            <p class="footer_link_text">
+                                Twitter
+                            </p>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer_link">
+                            <div class="footer_link_cir">
+                                <img src="../../assets/icons/inst.svg" alt="Instagram" class="footer_link_icon">
+                            </div>
+                            <p class="footer_link_text">
+                                Instagram
+                            </p>
+                        </a>
+                        <a href="https://www.youtube.com/" class="footer_link">
+                            <div class="footer_link_cir">
+                                <img src="../../assets/icons/youtube.svg" alt="YouTube" class="footer_link_icon">
+                            </div>
+                            <p class="footer_link_text">
+                                YouTube
+                            </p>
+                        </a>
+                    </div>
+                    <div class="footer_div">
+                        <nav class="footer_nav">
+                            <ul id="menu1" class="footer_list">
+                                <li class="footer_item">
+                                    <a id="active1" href="" class="footer_item_link">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="" class="footer_item_link">
+                                        Map
+                                    </a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="" class="footer_item_link">
+                                        Zoos
+                                    </a>
+                                </li>
+                                <li class="footer_item">
+                                    <a href="" class="footer_item_link">
+                                        Contact us
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                     <div class="footer_div_link">
                         <a href="#!" class="footer_link_desing">
                             Designed by Svitlana Ponkratenko
