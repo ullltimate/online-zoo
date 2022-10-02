@@ -1298,7 +1298,7 @@ textarea {
     min-height: 1929px;
   }
   .pets_cards{
-    margin-bottom: 84px;
+    margin-bottom: 90px;
   }
   .button_arrow_left{
     top: 1170px;
@@ -1440,6 +1440,7 @@ textarea {
   .scroll_bar{
     width: 390px;
     margin-bottom: 52px;
+    margin-left: 270px;
   }
   .scroll_bar_orange{
     width: 75px;
@@ -1529,11 +1530,11 @@ textarea {
     font-size: 54.2894px;
   }
   .intro_button{
-    margin-top: 27px;
-    margin-left: -308px;
+    margin-top: 30px;
+    margin-left: -311px;
   }
   .backstage{
-    min-height: 1542px;
+    min-height: 1478px;
   }
   .the_backstage{
     padding-top: 60px;
@@ -1555,6 +1556,7 @@ textarea {
   }
   .pets_card{
     max-width: 285px;
+    max-height: 332px;
   }
   .pets_card_img{
     max-width: 285px;
@@ -1692,7 +1694,7 @@ textarea {
   .feedback{
     width: 240px;
     margin-left: 180px;
-    margin-top: 30px;
+    margin-top: 25px;
   }
   .testimonials_flower{
     display: none;
@@ -1755,9 +1757,14 @@ textarea {
   }
   .button_arrow_left{
     left: 243px;
+    top: 850px;
   }
   .button_arrow_right{
     right: 243px;
+    top: 850px;
+  }
+  .footer_link{
+    padding-bottom: 20px;
   }
 }
 @media screen and (max-width:610px) {
@@ -1784,7 +1791,7 @@ textarea {
   }
   .intro_button{
     z-index: 1;
-    margin-top: 93px;
+    margin-top: 83px;
     margin-left: -150px;
   }
   .the_backstage{
@@ -1822,7 +1829,7 @@ textarea {
     margin-bottom: 20px;
   }
   .backstage{
-    min-height: 2094px;
+    min-height: 2054px;
     overflow: hidden;
   }
   .backstage_flower3{
@@ -1846,6 +1853,18 @@ textarea {
   .pay_card_arrow_1,
   .pay_card_arrow_2{
     display: none;
+  }
+  .pay_card_arrow_1{
+    display: block;
+    transform: rotate(82deg);
+    top: 385px;
+    left: 205px;
+  }
+  .pay_card_arrow_2{
+    display: block;
+    transform: rotate(82deg);
+    top: 630px;
+    left: 205px;
   }
   .pick_and_feed_title{
     font-size: 24px;
@@ -1881,12 +1900,12 @@ textarea {
     margin-bottom: 40px;
   }
   .pay_cards{
-    margin-bottom: 30px;
+    margin-bottom: 23px;
   }
   .testimonials_title{
     padding-top: 30px;
     font-size: 24px;
-    padding-bottom: 20px;
+    padding-bottom: 17px;
   }
   .feedback{
     margin-left: 30px;
@@ -1942,8 +1961,5 @@ textarea {
   .footer_div_link{
     margin-top: 30px;
   }
-
-
-  
 }
     
