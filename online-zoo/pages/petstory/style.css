@@ -600,6 +600,12 @@ textarea {
     top: 12px;
     right: 0px;
   }
+  .backstage_flower1-min320{
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
   .backstage_flower2{
     position: absolute;
     right: 0px;
@@ -1459,7 +1465,7 @@ textarea {
     margin-left: 85px;
   }
   .footer_div_input{
-    margin-left: 275px;
+    margin-left: 245px;
   }
   .footer_btn_donate{
     margin-top: 68px;
@@ -1533,6 +1539,10 @@ textarea {
     padding-top: 60px;
     margin-bottom: 80px;
   }
+  .the_backstage_subtitle{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
   .the_backstage_img_min{
     display: none;
   }
@@ -1560,10 +1570,29 @@ textarea {
   }
   .button_arrow_right,
   .button_arrow_left{
-    top: 905px;
+    top: 860px;
+  }
+  .button_arrow_right{
+    right:138px;
+  }
+  .button_arrow_left{
+    left: 138px;
   }
   .pets_cards:nth-child(3){
     margin-bottom: 60px;
+  }
+  .pets_card_title{
+    font-size: 12.4695px;
+  }
+  .pets_card_text{
+    font-size: 11.6901px;
+  }
+  .pets_cards_title{
+    margin-left: 12.5px;
+  }
+  .pets_card_descrip{
+    margin-top: 6px;
+    margin-bottom: 11px
   }
   .button_wrapper{
     margin-top: 0px;
@@ -1718,6 +1747,203 @@ textarea {
     left: 9.23px;
     height: 20.98px;
   }
-}
 
+}
+@media screen and (max-width:640px) {
+  .pick_and_feed_wrapper{
+    left: 0px;
+  }
+  .button_arrow_left{
+    left: 243px;
+  }
+  .button_arrow_right{
+    right: 243px;
+  }
+}
+@media screen and (max-width:610px) {
+  .wrapper{
+    max-width: 300px;
+  }
+  .intro{
+    min-height: 221px;
+  }
+  .circle{
+    width: 119.09px;
+    height: 119.09px;
+    top: 56.17px;
+    margin-right: 30px;
+  }
+  .circle_title{
+    width: 128.13px;
+    height: 102.44px;
+    top: 19px;
+    left: 19px;
+  }
+  .intro_title{
+    font-size: 28px;
+  }
+  .intro_button{
+    z-index: 1;
+    margin-top: 93px;
+    margin-left: -150px;
+  }
+  .the_backstage{
+    padding-top: 104px;
+    margin-bottom: 40px;
+  }
+  .the_backstage_title{
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .the_backstage_subtitle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .backstage_flower1-min-640{
+    display: none;
+  }
+  .backstage_flower1-min320{
+    display: block;
+    top:38px;
+  }
+  .button_arrow_left,
+  .button_arrow_right{
+    display: none;
+  }
+  .pets_cards{
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  .pets_cards:nth-child(3){
+    margin-bottom: 0px;
+  }
+  .pets_card{
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .backstage{
+    min-height: 2094px;
+    overflow: hidden;
+  }
+  .backstage_flower3{
+    display: none;
+  }
+  .backstage_flower3-min{
+    display: block;
+    height: 72px;
+  }
+  .backstage_flower2-min{
+    width: 85px;
+    height: 71px;
+    transform: translateX(20px);
+  }
+  .pick_and_feed_text_s{
+    display: none;
+  }
+  .pick_and_feed_text_t{
+    display: none;
+  }
+  .pay_card_arrow_1,
+  .pay_card_arrow_2{
+    display: none;
+  }
+  .pick_and_feed_title{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .pick_and_feed_text_f{
+    font-size: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .pick_and_feed_wrapper{
+    left: auto;
+    max-width: 300px;
+  }
+  .pick_and_feed_subtitle{
+    font-size: 24px;
+  }
+  .pay_card_descrip{
+    margin-top: 10px;
+  }
+  .pay_card:first-child,
+  .pay_card:last-child,
+  .pay_card{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pick_and_feed{
+    min-height: 1084px;
+  }
+  .feed_but_wrap{
+    margin-bottom: 40px;
+  }
+  .pay_cards{
+    margin-bottom: 30px;
+  }
+  .testimonials_title{
+    padding-top: 30px;
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .feedback{
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .testimonials{
+    min-height: 580px;
+  }
+  .testimonials_flower-min{
+    transform: translateY(25px);
+    height: 75px;
+  }
+  .header_logo:nth-last-of-type(1){
+    border: none;
+    width: 128px;
+    height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer_line .header_logo .header_logo_link .header_logo_svg{
+    top: -3px;
+    left: 72.23px;
+  }
+  .footer_wrapper{
+    padding-top: 20px;
+  }
+  .footer_btn_donate{
+    margin-top: 86px;
+  }
+  .footer_link:last-child{
+    padding-bottom: 10px;
+  }
+  .footer_link_wrapper {
+    margin-left: 0px;
+    position: absolute;
+    display: flex;
+    top: 73px;
+  }
+  .footer_wrapper{
+    position: relative;
+  }
+  .footer_link{
+    margin-right: 30px;
+  }
+  .footer_link:first-child{
+    margin-left: 53px;
+  }
+  .footer_div{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    order: 5;
+  }
+  .footer_div_link{
+    margin-top: 30px;
+  }
+
+
+  
+}
     
