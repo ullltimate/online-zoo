@@ -584,7 +584,7 @@ textarea {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-bottom: 48px;
+    padding-bottom: 52px;
   }
   .wedget_title{
     font-family: 'Roboto';
@@ -680,7 +680,7 @@ textarea {
     z-index: 2;
   }
   .amount_list{
-    margin-top: 6px;
+    margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -997,6 +997,7 @@ textarea {
     }
     .amount_title{
       margin-left: 65px;
+      padding-bottom: 15px;
     }
     .amount_div{
       width: 810px;
@@ -1070,7 +1071,7 @@ textarea {
       max-width: 600px;
     }
     .intro{
-      height: 335px;
+      height: 370px;
     }
     .header{
       position: fixed;
@@ -1225,7 +1226,7 @@ textarea {
       max-width: 300px;
     }
     .intro{
-      height: 187px;
+      height: 220px;
     }
     .donation_title{
       font-size: 24px;
@@ -1234,6 +1235,7 @@ textarea {
     .pick_and_feed_title{
       padding-top: 20px;
       font-size: 24px;
+      padding-bottom: 10px;
     }
     .pick_and_feed_text_f{
       font-size: 16px;
@@ -1241,6 +1243,10 @@ textarea {
       margin-left: 0px;
       margin-right: 0px;
       width: 300px;
+      padding-bottom: 0px;
+    }
+    .wedget{
+      padding-bottom: 18px;
     }
     .wedget_img{
       width: 160.15px;
@@ -1304,7 +1310,7 @@ textarea {
       padding-bottom: 25px;
     }
     .form_radio{
-      margin-top: 15px;
+      margin-top: 25px;
       margin-left: 41px;
     }
     .amount_button{
@@ -1313,9 +1319,10 @@ textarea {
     .amount_text{
       padding-left: 0px;
       font-size: 15.98px;
+      padding-bottom: 20px;
     }
     .pick_and_feed{
-      min-height: 1238px;
+      min-height: 1145px;
     }
     .header_logo:nth-last-of-type(1){
       border: none;
@@ -1353,7 +1360,7 @@ textarea {
       margin-left: 53px;
     }
     .footer_div{
-      margin-top: 30px;
+      margin-top: 40px;
       margin-bottom: 20px;
       order: 5;
     }
