@@ -11,49 +11,53 @@
     <header class="header">
         <div class="wrapper">
             <div class="header_wrapper">
-                <div class="header_logo">
-                    <a href="" class="header_logo_link">
-                        <h1 class="headear_logo_title">
-                            PetStory online
-                        </h1>
-                        <img src="../../assets/icons/bamboo.svg" alt="bamboo" class="header_logo_svg">
-                    </a>
+                <img src="../../assets/icons/logo.png" alt="logo" class="logo_img">
+                <div class="header_wrap_menu">
+                    <div class="header_logo">
+                        <a href="" class="header_logo_link">
+                            <h1 class="headear_logo_title">
+                                PetStory online
+                            </h1>
+                            <img src="../../assets/icons/bamboo.svg" alt="bamboo" class="header_logo_svg">
+                        </a>
+                    </div>
+                    <nav class="header_nav">
+                        <ul id="menu" class="header_list">
+                            <li class="header_item">
+                                <a id="active" href="" class="header_link">
+                                    About
+                                </a>
+                            </li>
+                            <li class="header_item">
+                                <a href="" class="header_link">
+                                    Map
+                                </a>
+                            </li>
+                            <li class="header_item">
+                                <a href="" class="header_link">
+                                    Zoos
+                                </a>
+                            </li>
+                            <li class="header_item">
+                                <a href="../donate/index.html" class="header_link">
+                                    Donate
+                                </a>
+                            </li>
+                            <li class="header_item">
+                                <a href="" class="header_link">
+                                    Contact us
+                                </a>
+                            </li>
+                            <li class="header_item">
+                                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="header_link">
+                                    Designed by ©
+                                </a>
+                            </li>
+                        </ul>
+                        <img src="../../assets/icons/x_close.svg" alt="x_close" class="nav_menu_close">
+                    </nav>
                 </div>
-                <nav class="header_nav">
-                    <ul id="menu" class="header_list">
-                        <li class="header_item">
-                            <a id="active" href="" class="header_link">
-                                About
-                            </a>
-                        </li>
-                        <li class="header_item">
-                            <a href="" class="header_link">
-                                Map
-                            </a>
-                        </li>
-                        <li class="header_item">
-                            <a href="" class="header_link">
-                                Zoos
-                            </a>
-                        </li>
-                        <li class="header_item">
-                            <a href="../donate/index.html" class="header_link">
-                                Donate
-                            </a>
-                        </li>
-                        <li class="header_item">
-                            <a href="" class="header_link">
-                                Contact us
-                            </a>
-                        </li>
-                        <li class="header_item">
-                            <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="header_link">
-                                Designed by ©
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header_burger">
+                <div class="header_burger burger">
                     <span class="burger_line burger_line_first"></span>
                     <span class="burger_line burger_line_second"></span>
                     <span class="burger_line burger_line_third"></span>
@@ -88,7 +92,7 @@
             <button class="button_arrow_right">
                 <img src="../../assets/icons/arr_right.svg" alt="" class="arr_right">
             </button>
-            <div class="wrapper">
+            <div class="wrapper" id="carusel">
                 <div class="the_backstage">
                     <img src="../../assets/images/bamboo-cap.png" alt="bamboo-cap" class="the_backstage_img">
                     <img src="../../assets/images/bamboo-cap-min.png" alt="bamboo-cap" class="the_backstage_img_min">
@@ -156,6 +160,38 @@
                             <img src="../../assets/icons/banana-bamboo_icon.svg" alt="banana-bamboo_icon" class="pets_card_icon">
                         </div>
                     </div>
+                    <div class="pets_card">
+                        <div class="pets_card_img_black">
+                            <img src="../../assets/images/wolf.jpg" alt="wolf" class="pets_card_img">
+                        </div>
+                        <div class="pets_card_descrip">
+                            <div class="pets_cards_title">
+                                <h3 class="pets_card_title">
+                                    Wolf
+                                </h3>
+                                <p class="pets_card_text">
+                                    Native to Europe
+                                </p>
+                            </div>
+                            <img src="../../assets/icons/meet-fish_icon.svg" alt="meet-fish_icon" class="pets_card_icon">
+                        </div>
+                    </div>
+                    <div class="pets_card">
+                        <div class="pets_card_img_black">
+                            <img src="../../assets/images/hyena.jpg" alt="hyena" class="pets_card_img">
+                        </div>
+                        <div class="pets_card_descrip">
+                            <div class="pets_cards_title">
+                                <h3 class="pets_card_title">
+                                    Hyena
+                                </h3>
+                                <p class="pets_card_text">
+                                    Asia west
+                                </p>
+                            </div>
+                            <img src="../../assets/icons/meet-fish_icon.svg" alt="meet-fish_icon" class="pets_card_icon">
+                        </div>
+                    </div>
                 </div>
                 <div class="pets_cards">
                     <div class="pets_card">
@@ -204,6 +240,38 @@
                                 </p>
                             </div>
                             <img src="../../assets/icons/meet-fish_icon.svg" alt="meet-fish_icon" class="pets_card_icon">
+                        </div>
+                    </div>
+                    <div class="pets_card">
+                        <div class="pets_card_img_black">
+                            <img src="../../assets/images/zubr.jpg" alt="zubr" class="pets_card_img">
+                        </div>
+                        <div class="pets_card_descrip">
+                            <div class="pets_cards_title">
+                                <h3 class="pets_card_title">
+                                    Zubr
+                                </h3>
+                                <p class="pets_card_text">
+                                    Native to Eastern Europe
+                                </p>
+                            </div>
+                            <img src="../../assets/icons/banana-bamboo_icon.svg" alt="banana-bamboo_icon" class="pets_card_icon">
+                        </div>
+                    </div>
+                    <div class="pets_card">
+                        <div class="pets_card_img_black">
+                            <img src="../../assets/images/horse_prj.jpg" alt="horse" class="pets_card_img">
+                        </div>
+                        <div class="pets_card_descrip">
+                            <div class="pets_cards_title">
+                                <h3 class="pets_card_title">
+                                    PRZEWALSKI HORSE
+                                </h3>
+                                <p class="pets_card_text">
+                                    western Mongolia
+                                </p>
+                            </div>
+                            <img src="../../assets/icons/banana-bamboo_icon.svg" alt="banana-bamboo_icon" class="pets_card_icon">
                         </div>
                     </div>
                 </div>
@@ -462,9 +530,10 @@
                             ©RSSchool & ©Yem Digital 2021
                         </a>
                     </div>
-                
             </div>
         </div>
     </footer>
+    <div class="main_open"></div>
+    <script src="./script.js"></script>
 </body>
 </html>
